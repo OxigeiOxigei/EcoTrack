@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Manage Profile"
+        android:id="@+id/menu_manage_profile"/>
+
+    <item android:title="Modify Password"
+        android:id="@+id/menu_modify_password"/>
+
+    <item android:title="Upload Picture"
+        android:id="@+id/menu_upload_picture"/>
+
+    <item android:title="Notification Settings"
+        android:id="@+id/menu_notification_settings"/>
+
+    <item android:title="Report App Issues"
+        android:id="@+id/menu_report_app_issues"/>
+
+    <item
+        android:id="@+id/menu_faqs"
+        android:title="FAQ and Support" />
+
+    <item android:title="Log Out"
+        android:id="@+id/menu_log_out"/>
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/HomeNavig"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item
+        android:id="@+id/EcoChallengeNavig"
+        android:icon="@drawable/ic_eco_challenge"
+        android:title="Eco-Challenges" />
+
+    <item
+        android:id="@+id/RecycleGuidelineNavig"
+        android:icon="@drawable/ic_recycle_guideline"
+        android:title="Recycle Guidelines" />
+
+    <item
+        android:id="@+id/EcoServicesNavig"
+        android:icon="@drawable/ic_eco_services"
+        android:title="Eco-Services" />
+
+    <item
+        android:id="@+id/ProfileNavig"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"
+        />
+</menu>
