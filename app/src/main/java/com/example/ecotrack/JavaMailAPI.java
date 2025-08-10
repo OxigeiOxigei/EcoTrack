@@ -44,7 +44,7 @@ public class JavaMailAPI extends AsyncTask<Void, Void, Boolean> {
             // 1. Configure mail server properties for Yahoo SMTP
             Properties props = new Properties();
             props.put("mail.smtp.host", "smtp.mail.yahoo.com"); // Yahoo SMTP server
-            props.put("mail.smtp.port", "587");                // Port for TLS
+            props.put("mail.smtp.port", "");                // Port for TLS
             props.put("mail.smtp.auth", "true");               // Enable authentication
             props.put("mail.smtp.starttls.enable", "true");    // Enable TLS
 
@@ -85,3 +85,4 @@ public class JavaMailAPI extends AsyncTask<Void, Void, Boolean> {
         }
     }
 }
+
